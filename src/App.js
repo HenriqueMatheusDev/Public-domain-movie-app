@@ -10,7 +10,7 @@ function App() {
           <Routes>
             <Route index element={<h1>hello world 2</h1>}></Route>
             <Route path='movie/:id' element={<h1>Movie detail pages</h1>}></Route>
-            <Route path='movie/:type' element={<h1>Movies list pages</h1>}></Route>
+            <Route path='movies/:type' element={<h1>Movies list pages</h1>}></Route>
             <Route path='/*' element={<h1>Error Page</h1>}></Route>
           </Routes>
         </Router>
